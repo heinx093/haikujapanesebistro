@@ -1,0 +1,203 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container {
+    height: 960px;
+    width: 1180px;
+    background-color: #FFFFFF;
+    position: relative;
+    margin: 0 auto;
+}
+
+.main-image {
+    height: 500px;
+    width: 1180px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-image: url("images/about-image.jpg");
+}
+
+/* Nav Bar styles */
+.nav-bar {
+    height: 40px;
+    width: 1180px;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 0px;
+    top: 10px;
+}
+
+.nav-buttons {
+    position: absolute;
+    height: 18px;
+    width: 180px;
+    top: 8px;
+    font-family: "Reem Kufi", sans-serif;
+    color: #343339;
+    text-decoration: none;
+    text-align: center;
+}
+
+.nav-buttons:hover {
+    color: #D05E43;
+}
+
+.active-nav {
+    color: #D05E43;
+}
+
+#menu {
+    left: 150px;
+}
+
+#specials {
+    left: 350px;
+}
+
+#about-us {
+    left: 550px;
+}
+
+#reservations {
+    left: 750px;
+}
+
+#order-online {
+    left: 950px;
+}
+
+#logo-home {
+    position: absolute;
+    left: 73px;
+    top: -10px;
+    width: 60px;
+    height: 60px;
+    background-color: #FFFFFF;
+    border-radius: 0px 0px 5px 5px;
+    padding-left: 1px;
+}
+
+#logo {
+    width: 48px;
+    height: 55px;
+    position: absolute;
+    top: 2px;
+    left: 7px;
+}
+
+/* Main content styles */
+.main-content {
+    width: 1180px;
+    height: 410px;
+    position: absolute;
+    left: 0px;
+    top: 500px;
+    background-color: #FFFFFF;
+}
+
+.box_hours {
+    background-color: #D05E43;
+    width: 480px;
+    height: 30px;
+    position: absolute;
+    left: 110px;
+    top: 100px;
+    font-family: "Reem Kufi", sans-serif;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding-top: 1px;
+    border-radius: 6px;
+}
+
+.hours {
+    position: absolute;
+    top: 145px;
+    left: 115px;
+
+}
+
+.location {
+    width: 280px;
+    position: absolute;
+    top: 175px;
+    left: 310px;
+    font-family: "Reem Kufi", sans-serif;
+    font-size: 16px;
+
+}
+
+.red {
+    font-family: "Reem Kufi", sans-serif;
+    font-size: 16px;
+    color: #D05E43;
+}
+
+.black {
+    font-family: "Reem Kufi", sans-serif;
+    font-size: 16px;
+    color: #343339;
+}
+
+.vl {
+    border-left: 3px solid #597A31;
+    height: 360px;
+    position: absolute;
+    left: 650px;
+    top: 25px;
+}
+
+.map {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 50px;
+    left: 710px;
+}
+
+/* footer styles */
+.footer {
+    width: 1180px;
+    height: 160px;
+    position: absolute;
+    left: 0px;
+    top: 910px;
+    background-color: #343339;
+    font-family: "Reem Kufi", sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 14px;
+}
+
+#contact-info {
+    width: 385px;
+    height: 14px;
+    position: absolute;
+    left: 407px;
+    top: 50px;
+}
+
+#border {
+    position: absolute;
+    width: 580px;
+    height: 0px;
+    left: 310px;
+    top: 80px;
+    border: 1px solid #FFFFFF;
+}
+
+#footer-navigation {
+    position: absolute;
+    width: 474px;
+    height: 17px;
+    left: 363px;
+    top: 95px;
+    font-size: 12px;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
